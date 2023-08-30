@@ -1,0 +1,29 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Automation testing of zendata website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test-automation"
+  },
+  "keywords": [
+    "e2e",
+    "website",
+    "test",
+    "cypress",
+    "framework"
+  ],
+  "author": "Gustavo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.88.2"
+  }
+}
