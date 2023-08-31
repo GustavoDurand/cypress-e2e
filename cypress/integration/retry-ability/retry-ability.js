@@ -8,6 +8,8 @@ describe('Sesion de Retry-Ability', function(){
     
     it('Validar aplicaciones en el menú',()=>{
         cy.get('#root > div > div > div > ul > a.MuiButtonBase-root.MuiListItem-root.jss64.-reports.-active.MuiListItem-gutters.MuiListItem-button.active > div.MuiListItemText-root.jss65 > span')
-        
+        .should('') //Assertion
+        .and('') //Assertion chain
+
     })
 })
